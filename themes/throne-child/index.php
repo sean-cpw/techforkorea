@@ -23,8 +23,7 @@
 	} else {
 		$args['paged'] = get_query_var('paged');	
 	}
-
-	$args['search'] = get_query_var( 'search' );
+	$args['s'] = get_query_var( 's' );
 	$wp_query = new WP_Query($args); 
 ?>
 	<?php get_template_part('sections/loops/'.thr_get_posts_layout()); ?>
