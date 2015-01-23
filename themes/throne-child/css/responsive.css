@@ -56,6 +56,7 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 950px) {
+#header .widget { display: none; }
 .main_content_wrapper, .sidebar{width: 100%;}
 .thr_boxed{width: 95%;}
 .thr_sidebar_wrapped #sidebar, #sidebar{margin:0 0 40px;}
