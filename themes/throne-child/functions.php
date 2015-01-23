@@ -1,5 +1,22 @@
 <?php
 
+add_action('widgets_init', 'thr_child_register_header_sidebar');
+function thr_child_register_header_sidebar(){
+	/* Header Sidebar */
+	register_sidebar(
+		array(
+			'id' => 'thr_header_sidebar',
+			'name' => __( 'Header', THEME_SLUG),
+			'description' => __( 'This is horizontal sidebar to use in header area.', THEME_SLUG ),
+			'before_widget' => '<div id="%1$s" class="widget header-col '. 'thr-child-widget-no-title thr-child-widget-right' .' %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h4 class="widget-title"><span>',
+			'after_title' => '</span></h4>'
+		)
+	);
+
+}
+
 /* Load frontend styles */
 function thr_load_styles(){
 

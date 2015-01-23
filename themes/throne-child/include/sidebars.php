@@ -43,7 +43,7 @@ function thr_register_sidebars() {
 				'after_title' => '</span></h4>'
 			)
 		);
-		
+
 		$custom_sidebars = thr_get_option('add_sidebars');
 			if($custom_sidebars){
 				for( $i = 1; $i <= $custom_sidebars; $i++){

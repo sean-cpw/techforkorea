@@ -208,3 +208,12 @@ ul {
 #search_result {
 	float: left;
 }
+
+.thr-child-widget-right {
+	position: absolute;
+	right: 0px;
+}
+
+.thr-child-widget-no-title {
+	padding-top: 20px;
+}
