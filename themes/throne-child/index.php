@@ -23,6 +23,7 @@
 	} else {
 		$args['paged'] = get_query_var('paged');	
 	}
+	$args['cat'] = get_query_var( 'cat' );
 	$args['s'] = get_query_var( 's' );
 	$wp_query = new WP_Query($args); 
 ?>
