@@ -34,7 +34,7 @@
 			<!-- crazy hack to make query come back to same page -->
 			<input name="page_id" value=<?php echo "\"".$post->ID."\""; ?> style="display:none;"/>
 			<input name="search" class="search_input" size="20" type="text" placeholder="Type here to search" />
-			<input class="icon-magnifier" type="submit" />
+			<input class="input-icon-magnifier" type="submit" value=""/>
 		</form>
 	</div>
 	<p>Compiled by the TK team</p>
