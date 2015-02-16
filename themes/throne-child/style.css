@@ -210,10 +210,57 @@ ul {
 }
 
 .thr-child-widget-right {
-	position: absolute;
-	right: 0px;
+	float: right;
+	//position: absolute;
+	//right: 0px;
 }
 
 .thr-child-widget-no-title {
 	padding-top: 20px;
 }
+
+.thr-child-widget-no-title .widget-title{
+	display: none;
+}
+
+.header-widget div{
+	padding-right: 10px;
+}
+
+.header-widget input[type="email"] {
+	height: 30px;
+	display: inline-block;
+	width: 200px;
+	float: left;
+}
+
+.header-widget input[type="submit"] {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	float: left;
+	border-radius: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#mc4wp-form-1.form.mc4wp-form{
+	width: 300px;
+}
+
+input#mc4wp-email{
+	width: 50%;
+}
+
+input.icon-magnifier {
+	position: relative;
+	background: url(https://www.crunchbase.com/assets/main-sprite-270f7a4e6778ae5db75d87cf6bf04f9f.png) 1px -70px no-repeat;
+	border: 0px;
+	padding: 0px;
+	float: right;
+	width: 18px;
+	height: 18px;
+	top: -27px;
+	left: -10px;	
+}
+

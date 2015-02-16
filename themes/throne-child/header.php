@@ -49,7 +49,9 @@
 				<div class="header_bg_img"><img src="<?php echo esc_url($header_bg_img); ?>" alt="<?php bloginfo('name'); ?>"/></div>
 			<?php endif; ?>
 			<div class="content_wrapper">
-				<?php dynamic_sidebar('thr_header_sidebar'); ?>		
+				<div class="header-widget">
+					<?php dynamic_sidebar('thr_header_sidebar'); ?>		
+				</div>
 				<?php $header_layout = thr_get_option('header_main'); ?>
 				<?php get_template_part('sections/headers/header-main-'.$header_layout); ?>
 			</div>
