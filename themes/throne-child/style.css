@@ -230,13 +230,13 @@ ul {
 .header-widget input[type="email"] {
 	height: 30px;
 	display: inline-block;
-	width: 200px;
+	width: 70%;
 	float: left;
 }
 
 .header-widget input[type="submit"] {
 	display: inline-block;
-	width: 80px;
+	width: 30%;
 	height: 30px;
 	float: left;
 	border-radius: 0px;
