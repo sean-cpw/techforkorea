@@ -12,13 +12,10 @@
         <div class="main_content_wrapper">
     
 <?php
-	set_query_var('post_type', 'post');
-?>    
-<!--?php
-//	$args = array(
-//		'post_type'=>'post'
-//	);
-//	
+	global $wp_query;
+	$args = $wp_query->query_vars;
+	$args['post_type'] = 'post';
+	
 //	if(is_front_page()){
 //		$args['paged'] = get_query_var('page');
 //		global $paged;
@@ -28,8 +25,8 @@
 //	}
 //	$args['cat'] = get_query_var( 'cat' );
 //	$args['s'] = get_query_var( 's' );
-//	$wp_query = new WP_Query($args); 
-?-->
+	$wp_query = new WP_Query($args); 
+?>
 	<?php get_template_part('sections/loops/'.thr_get_posts_layout()); ?>
 
         <?php get_template_part('sections/pagination'); ?>
@@ -37,7 +34,7 @@
 
         <?php if ( $thr_sidebar_opts['use_sidebar'] == 'right' ) { get_sidebar(); } ?>
 
-	<!--?php wp_reset_query(); ?-->
+	<?php wp_reset_query(); ?>
 
     </section>
 
