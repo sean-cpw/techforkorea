@@ -1,0 +1,103 @@
+#thr_post_colors .inside p{clear:both; margin:0 0 5px}
+.admin_separator{float:left; width:100%; height:20px; clear:both}
+.inside-colors{display:inline-block}
+#thr_tabs ul{display:block; border-bottom:1px solid #ccc; float:left; width:100%; height:26px; margin:10px 0 0}
+#thr_tabs ul li{display:inline-block; vertical-align:top}
+#thr_tabs ul li{text-decoration:none; border-color:#CCC; border-width:1px 1px 0 1px; border-style:solid; border-radius:2px 2px 0 0; background:#FFF; float:left; margin-right:3px}
+#TB_window #thr_tabs ul li.current a{color:#d54e21; margin-bottom:1px}
+#TB_window #thr_tabs ul li:hover a{color:#d54e21}
+#TB_window #thr_tabs ul li a{text-decoration:none; text-align:center; padding:5px 8px 4px; float:left; color:#21759b}
+#thr_tabs_sections{border-color:#CCC; border-width:0 1px 1px 1px; border-style:solid; border-radius:0 0 4px 4px; float:left; width:100%; padding:0 0 10px}
+.wp_themeSkin .mceIcon.mce_thr_shortcodes_button img, 
+.wp_themeSkin a.mceButtonEnabled.mce_thr_shortcodes_button:hover{width:63px}
+#thr_share,#thr_feedback{width: 100%; float: left; margin:0 0 20px;}
+#thr_share li{float: left; margin:0 20px 0 0;}
+#thr_share li.twitter{width: 75px;}
+#thr_share li.gplus{width: 55px;}
+#thr_feedback li{ float: left; margin-right: 10px;}
+#thr_feedback a{
+	background: url("../images/mks_smiley.png") no-repeat center top;
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	height: 64px;
+	width: 64px;
+	opacity: 0.7;
+	outline: none;
+}
+#thr_feedback a:hover,
+#thr_feedback .selected{
+	opacity: 1;
+}
+#thr_feedback a.sad_link{
+	background-position: 0 -64px;
+}
+#thr_happy_wrap, #thr_sad_wrap{display: none;}
+#thr_feedback{margin: 0 0 10px;}
+.feedback_wrapper{float: left;width: 100%; margin: 0 0 10px;}
+#thr_share li.rate{margin: 3px 10px 0 0;}
+
+input.thr-radio{
+	width: 16px;
+	margin-left:0;
+}
+#toplevel_page_thr_theme_options .wp-first-item{
+	display: none;
+}
+.rtl .switch_wrap input[type="checkbox"]{
+	left: 0;
+}
+.redux-container-image_select .redux-image-select span{
+	max-width: 100px;
+}
+#redux-header .display_header{
+	width: 99%;
+}
+#redux-header .display_header h2{
+	float: left;
+}
+#redux-header .display_header span{
+	float: right;
+	margin: 13px 0 0;
+}
+#redux-intro-text{
+	display: none;
+}
+.redux-container .redux-section-field h3,
+.redux-group-tab > h3{
+	background: #ECECEC;
+	padding: 10px;
+	margin: 20px 0 0;
+	border: none !important;	
+}
+.redux_field_th span{
+	max-width: 250px;
+	line-height: 1.4em;
+}
+.redux_field_th{
+	max-width: 250px;
+}
+.redux-main{
+	padding: 20px 30px;
+}
+.redux-container .redux-group-tab .redux-section-desc{
+	background: #f2f2f2;
+	padding: 10px;
+	position: relative;
+}
+.redux-container .redux-group-tab .redux-section-desc:before{
+	font-family: 'Elusive-Icons';
+	content: "\e699";
+	font-size: 18px;
+	margin: 0 5px 0 0;
+	color: #999;
+	float: left;
+}
+.redux-container-image_select ul.redux-image-select li{
+	vertical-align: top;
+}
+.redux-container-image_select .redux-image-select span span{
+	font-size: 80%;
+	display: block;
+}
+.redux-container .expand_options { display: none; }

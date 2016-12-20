@@ -11,10 +11,15 @@
   	<!-- Meta Tags -->
   	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-	
+	<meta name="description" content="TechForKorea is an online media portal providing the latest news from the Korean venture and startup community. Never has been the Korean venture market buzzing with this much excitement. You now, fellow friend/tech geek/venture capitalist, you want to know more all about this. We are here just for you. We’re all about innovation, microtrends, all those mind-blowing and valuable ideas beginning to sprout on Korean soil. We focus on them, young and thirsty minds waiting to be heard by you. Join in the latest gossip about Korean startups, tech inventions and events. Use us to jump in and discover virgin Korean technology. Because tech is just that sexy." />
+	<meta name="keywords" content="TechForKorea, Tech, Korea, Startup, Korean Startup, mobile app, mobile application, accelerator, entrepreneur, business trends, venture capital" />
+	<meta name="author" content="TechForKorea" />
+	<meta name="robots" content="all, index, follow" />	
+	<meta name="google-site-verification" content="aabLOmhCWE6PgjFMrdkdN7viTHcSGY7HhaztylXoIz8" />
+
   	<!-- Title -->
   	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	
+
 	<?php wp_head(); ?>
 </head>
 

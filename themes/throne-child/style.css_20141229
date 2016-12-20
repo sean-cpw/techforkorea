@@ -1,0 +1,176 @@
+/*
+ Theme Name:   Throne Child
+ Theme URI:    http://techforkorea.com
+ Description:  Throne Child Theme
+ Author:       Ephraim Park
+ Author URI:   http://example.com
+ Template:     throne
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  throne-child
+*/
+
+/*
+ For older themes, and themes that do not use wp_enqueue_style() to enqueue their stylesheet, use the following line where twentyfourteen is the name of the directory where the theme resides:
+ 
+ Make sure you uncomment out this import line below if you want to include the parent CSS and the wp_enqueue_style() is not working. If you do not then you will not have any styling in your child theme from the parent theme.
+*/
+
+
+
+ @import url("../throne/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.content_wrapper {
+	width: 1200px; /* 1070px to 1200px (130px diff) */
+}
+
+.main_content_wrapper{
+	width: 890px;
+}
+
+.home .main_content_wrapper{
+	border-top-style : solid;
+	border-top-width : 7px;
+	border-top-color : #e23a3e;
+}
+
+.home #sidebar{
+	border-top-style: solid;
+	border-top-width: 7px;
+	border-top-color: #e23a3e;
+}
+
+.content_wrapper .main_content_wrapper{
+	padding: 20px;
+}
+
+.post,
+.posts_wrapper .page{
+	margin: 0 0 10px;
+}
+
+.sidebar{
+	margin: 0 0 0 10px;
+}
+
+.thr_widget_wrapped #sidebar .widget{
+	margin-bottom: 10px;
+}
+
+/*
+.author{
+	display: none;
+}
+*/
+
+.featured_wrapper{
+	margin-bottom: 15px;
+}
+
+.featured_excerpt p{
+	display: none;
+}
+
+.featured_4 .tfk_featured1{
+	width: 70%;
+	height: 472px;
+}
+.featured_4 .tfk_featured1 .featured_item img{
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E0EEEE;
+	height: auto;
+}
+.featured_4 .tfk_featured2, 
+.featured_4 .tfk_featured3, 
+.featured_4 .tfk_featured4{
+	width: 29.1%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E0EEEE;
+	height: 150px;
+	margin: 0 0 10px 10px;
+}
+
+.featured_4 .tfk_featured2 .featured_item img,
+.featured_4 .tfk_featured3 .featured_item img,
+.featured_4 .tfk_featured4 .featured_item img{
+	width: 100%;
+	height: auto;
+}
+
+.featured_4 .tfk_featured2 h2,
+.featured_4 .tfk_featured3 h2,
+.featured_4 .tfk_featured4 h2{
+	font-size: 18px;
+}
+
+.meta-item .read_more_button{
+	font-weight: bold;
+	padding-top: 2px;
+	padding-left: 5px;
+	background: none;
+	color: #e23a3e;	
+}
+.meta-item .read_more_button:hover{
+	color: #000;
+}
+
+.entry-title{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.read_more_button .icon-arrow-right{
+	display: none;
+}
+
+.single_post_previous img{
+	height: 175px;
+}
+
+.single_post_next img{
+	height: 175px;
+}
+
+.nav-open-btn:hover{
+	cursor: pointer;
+}
+
+#sticky_header .nav-open-btn{
+	color: #FFFFFF;
+}
+
+.layout_b article {
+	border-bottom-style: solid;
+	border-bottom-color: #E0EEEE;
+	border-bottom-width: 3px;
+	margin-bottom: 30px;
+}
+
+.layout_b article:last-child{
+	border-bottom-style: none;
+}
+
+.layout_b .entry-image{
+	height: 180px;
+}
+
+.layout_b img{
+	max-height: 180px;
+}
+
+.fb-comments span {
+    width: 100% !important;
+}
+.fb-comments iframe {
+    width: 100% !important;
+}
+
+a {
+	color: #e23a3e;
+}

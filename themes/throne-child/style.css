@@ -179,6 +179,10 @@ ul {
 	list-style-type: none;	
 }
 
+ul.list_style_default {
+	list-style: disc outside none;
+}
+
 #tfk_company_db_header {
 	padding: 0px;
 	//border-radius: 10px;

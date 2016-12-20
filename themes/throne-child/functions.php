@@ -92,14 +92,14 @@ function thr_load_scripts(){
 	}
 }
 
-/*
+
 function thr_load_child_styles() {
 	//Load child css file
 	wp_register_style('thr_child_style', THEME_URI . '-child' . '/style.css', false, THEME_VERSION, 'screen');
 	wp_enqueue_style('thr_child_style');
 
 }
-*/
+
 
 require_once('include/helper_child.php');
 ?>
