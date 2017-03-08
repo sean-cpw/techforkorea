@@ -7,8 +7,12 @@
 
 <section id="main" class="content_wrapper">
 	<br><br>
-	<div id="tfk_company_email_header">
-		<h2>SIGN UP FOR OUR WEEKLY NEWSLETTER</h2>
+	<div id="tfk_company_email_header" style="width: 680px; margin: 0 auto; border: 1px solid;">
+		<h2 style="font-size: 30px;
+    		line-height: 45px;
+    		margin-bottom: 10px;
+    		padding-left: 18px;
+    		padding-top: 20px;">SIGN UP FOR OUR WEEKLY NEWSLETTER</h2>
 		<!-- Begin MailChimp Signup Form -->
 		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 		<style type="text/css">
@@ -40,7 +44,7 @@
 		</div>
 		<br><br>
 	<!--End mc_embed_signup-->
-		<p>CURATED BY <a href="http://www.techforkorea.com/author/joon-kwon/">JOON</a></p>
+		<p style="padding-left: 20px;">CURATED BY <a href="http://www.techforkorea.com/author/joon-kwon/">JOON</a></p>
 	</div>
 	<br><br><br>	
 </section>
