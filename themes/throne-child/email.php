@@ -6,10 +6,9 @@
 <?php get_header(); ?>
 
 <section id="main" class="content_wrapper">
-	<br><br><br>
+	<br><br>
 	<div id="tfk_company_email_header">
 		<h2>SIGN UP FOR OUR WEEKLY NEWSLETTER</h2>
-
 		<!-- Begin MailChimp Signup Form -->
 		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 		<style type="text/css">
@@ -20,7 +19,6 @@
 		<div id="mc_embed_signup">
 			<form action="//techforkorea.us10.list-manage.com/subscribe/post?u=37ab6470efbc61209ca1850ed&amp;id=c897d012ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			    <div id="mc_embed_signup_scroll">
-					<h2>BEST STORIES CURATED BY JOON</h2>
 					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 					<div class="mc-field-group">
 						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -42,7 +40,7 @@
 		</div>
 		<br><br>
 	<!--End mc_embed_signup-->
-		<p>BY TECH FOR KOREA</p>
+		<p>CURATED BY <a href="http://www.techforkorea.com/author/joon-kwon/">JOON</a></p>
 	</div>
 	<br><br><br>	
 </section>
