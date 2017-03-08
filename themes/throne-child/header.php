@@ -11,15 +11,13 @@
   	<!-- Meta Tags -->
   	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="TechForKorea is an online media portal providing the latest news from the Korean venture and startup community. Never has been the Korean venture market buzzing with this much excitement. You now, fellow friend/tech geek/venture capitalist, you want to know more all about this. We are here just for you. We’re all about innovation, microtrends, all those mind-blowing and valuable ideas beginning to sprout on Korean soil. We focus on them, young and thirsty minds waiting to be heard by you. Join in the latest gossip about Korean startups, tech inventions and events. Use us to jump in and discover virgin Korean technology. Because tech is just that sexy." />
+	<meta name="description" content="TechForKorea is an online media portal providing the latest news from the Korean venture and startup community. Join in the latest gossip about Korean startups, tech inventions and events. Use us to jump in and discover virgin Korean technology. Because tech is just that sexy." />
 	<meta name="keywords" content="TechForKorea, Tech, Korea, Startup, Korean Startup, mobile app, mobile application, accelerator, entrepreneur, business trends, venture capital" />
 	<meta name="author" content="TechForKorea" />
 	<meta name="robots" content="all, index, follow" />	
 	<meta name="google-site-verification" content="aabLOmhCWE6PgjFMrdkdN7viTHcSGY7HhaztylXoIz8" />
-
-  	<!-- Title -->
-  	<title><?php wp_title( '|', true, 'right' ); ?></title>
-
+        <meta name="google-site-verification" content="XXDgU3qhBMWIRAY5k4wiGq0ez0eU3_2Dg-mVOngm9XU" />
+ 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<?php wp_head(); ?>
 </head>
 
@@ -70,5 +68,5 @@
 			</div>
 		<?php endif; ?>
 	</header>
-
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"37ab6470efbc61209ca1850ed","lid":"c897d012ba"}) })</script>
 	<main id="main_content" class="clearfix">

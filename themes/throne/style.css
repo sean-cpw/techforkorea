@@ -776,8 +776,8 @@ display: table;
 }
 .logo_wrapper{
    position: absolute;
-   top: 23px;
-   left: 0;
+   top: -10px;
+   left: -40px;
 }
 .site-title,
 .site-title a{
@@ -1405,7 +1405,7 @@ input[type="submit"]:hover{
   text-shadow: rgba(0,0,0,.6) 0 0 5px; 
 }
 #featured_wrapper{
-  opacity: 0;
+  opacity: 1;
 }
 .featured_wrapper,
 #archive_title{
@@ -2856,7 +2856,7 @@ _:-moz-tree-row(hover), .count { margin:-25px 0 0 0;}
   font-size: 22px;
   line-height: 26px;
   float: left;
-  min-height: 175px;
+  min-height: 225px;
   width: 100%;
 }
 .single_post_previous i{
@@ -3691,3 +3691,5 @@ img.mfp-img {
     font-size: 18px !important;
     line-height: 25px !important;
 }
+
+.nav-btn nav-open-btn > i {color: rgba(0,0,0,0.65)}
