@@ -192,6 +192,24 @@ ul.list_style_default {
 	float: left;
 }
 
+#tfk_company_email_header {
+	width: 680px;
+    	margin: 0 auto;
+    	border: 1px solid;
+}
+
+#tfk_company_email_header > h2 {
+	font-size: 30px;
+    	line-height: 45px;
+    	margin-bottom: 10px;
+    	padding-left: 18px;
+    	padding-top: 20px;
+}
+
+#tfk_company_email_header > p {
+	padding-left: 20px;
+}
+
 #tfk_company_search_form .search_form .search_input {
 	border-color: red;
 	margin-bottom: 0px;
