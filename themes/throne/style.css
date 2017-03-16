@@ -79,7 +79,7 @@ body {
   height: auto;
  -webkit-font-smoothing: subpixel-antialiased;
  text-rendering:optimizeLegibility;
-font-family: sans-serif;
+/* font-family: sans-serif; */
 }
 
 article,
