@@ -79,6 +79,7 @@ body {
   height: auto;
  -webkit-font-smoothing: subpixel-antialiased;
  text-rendering:optimizeLegibility;
+ font-family: 'PT Serif', serif;
 /* font-family: sans-serif; */
 }
 
