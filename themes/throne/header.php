@@ -11,7 +11,8 @@
   <!-- Meta Tags -->
   	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-	
+  <!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   <!-- Title -->
   <title><?php wp_title( '|', true, 'right' ); ?></title>
 	
