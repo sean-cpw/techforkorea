@@ -1089,7 +1089,8 @@ p{
        -o-transition: all .2s linear;
           transition: all .2s linear;
   margin-bottom: 15px;
-font-family: sans-serif !important;
+font-family: 'Montserrat', sans-serif;
+/* font-family: sans-serif !important; */
 }
 .entry-title a:hover{
   color: #e23a3e;
