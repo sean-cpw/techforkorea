@@ -1364,7 +1364,8 @@ input[type="submit"]:hover{
   z-index: 1001;
   position: relative;
   margin-bottom: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+/*   font-family: sans-serif; */
 }
 .featured_title_over{
   position: absolute;
