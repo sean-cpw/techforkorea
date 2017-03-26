@@ -228,8 +228,8 @@ th, td{padding: 5px;}
 .featured_title_over h2{font-size: 18px;}
 .featured_title_over .meta-item, .featured_title_over .meta-item i, .featured_title_over .meta-item a{font-size: 10px;}
 .featured_title_over{
-  padding: 0px 20px 20px 20px;
-  background-color: rgba(0,0,0,0.6);
+  padding: 0px 20px 10px 20px;
+  background-color: rgba(0,0,0,0.2);
 }
 //.featured_4 .featured_element:nth-child(3n+3){ margin: 0 0 1px 0;}
 
