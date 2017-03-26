@@ -64,7 +64,7 @@
 .featured_4 .featured_element{width:24.8%;}
 .nav-btn{display: block;}
 #nav{display: none;}
-.header-main{height: 60px !important; text-align: center; position:fixed;}
+.header-main{height: 60px !important; text-align: center; position:fixed; opacity:0.9;}
 .logo_wrapper{display: block;top: 6px !important; margin: 0 auto; left:0px; right:0px;}
 .header-sticky.header-is-sticky .logo_wrapper{top: 2px !important;}
 .site-desc{display: none;}
