@@ -56,6 +56,7 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 950px) {
+.logo_wrapper img{max-height: 50px;}
 #header .widget { display: none; }
 .main_content_wrapper, .sidebar{width: 100%;}
 .thr_boxed{width: 95%;}
