@@ -17,6 +17,8 @@
 	<meta name="robots" content="all, index, follow" />	
 	<meta name="google-site-verification" content="aabLOmhCWE6PgjFMrdkdN7viTHcSGY7HhaztylXoIz8" />
         <meta name="google-site-verification" content="XXDgU3qhBMWIRAY5k4wiGq0ez0eU3_2Dg-mVOngm9XU" />
+	<!-- Bing verification -->
+	<meta name="msvalidate.01" content="19788A454158F4C29DD2FF3E5F6CE394" />
  	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<?php wp_head(); ?>
 </head>
