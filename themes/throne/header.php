@@ -11,6 +11,7 @@
   <!-- Meta Tags -->
   	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="msvalidate.01" content="19788A454158F4C29DD2FF3E5F6CE394" />
   <!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif" rel="stylesheet">
   <!-- Title -->
